@@ -1,0 +1,8 @@
+{
+  "name": "vm2-project",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "vm2": "^3.9.19"
+  }
+}
