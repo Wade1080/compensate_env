@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "commonjs",
   "dependencies": {
+    "node-inspect": "^2.0.0",
     "vm2": "^3.9.19"
   }
 }

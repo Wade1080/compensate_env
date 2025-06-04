@@ -1,4 +1,4 @@
-debugger
+debugger;
 function r(e, r, o) {
     for (var t = 2; void 0 !== t;) {
         var a, i, n = 7 & t >> 3;

@@ -3,14 +3,16 @@
     // 悬停以查看现有属性的描述。
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
+    "configurations": [        
+        
     {
-        "name": "Launch Program",
+        "name": "浏览器无环境",
         "program": "${workspaceFolder}/src/index.js",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"
         ],
+        "runtimeExecutable": "node-inspect",
         "type": "node"
     },
         {
@@ -22,5 +24,6 @@
             ],
             "program": "${workspaceFolder}\\src\\index.js"
         }
+
     ]
 }
